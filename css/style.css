@@ -1,0 +1,255 @@
+/* Available fonts
+    'Marck Script', cursive
+    'Literata', serif
+    'Spartan', sans-serif
+    'Cutive Mono', monospace
+*/
+
+body
+{
+    font-family: 'Spartan', sans-serif;
+    margin-left: 0;
+    margin-top: 0;
+    width: 100%;
+    position: absolute;
+}
+.body_mobile
+{
+    font-size: 120%;
+}
+h1
+{
+    font-family: 'Cutive Mono', monospace;
+    font-style: italic;
+    color: rgb(34, 42, 53);
+    font-size: 300%;
+}
+.sub_title
+{
+    font-weight: bold;
+    font-style: normal;
+}
+.body_text
+{
+    font-size: 120%;
+    font-family: 'Spartan', sans-serif;
+}
+a
+{
+    text-decoration: none;
+    color: black;
+}
+span
+{
+    display: inline-block;
+}
+em
+{
+    font-style: italic;
+}
+
+
+/* div menu */
+.div_header
+{
+    float: left;
+    display: inline-block;
+    font-family: 'Cutive Mono', monospace;
+    background-color: rgb(34, 42, 53);
+    font-size: 120%;
+    width: 100%;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+    color: white;
+    height: 66px;
+    padding: auto;
+}
+.table_menu
+{
+    padding-top: 13px;
+    margin-left: 3%;
+    width: 97%;
+}
+.td_menu
+{
+    text-align: center;
+}
+.a_menu
+{
+        color: white;
+}
+
+.div_menu_photo
+{
+    display: inline-block;
+    position: absolute;
+    float: left;
+    width: 77%;
+}
+.div_menu_photo_mobile
+{
+    display: none;
+}
+
+/* div summary */
+.div_summary_left
+{   
+    width: 100%;
+    height: 600px;
+    background: no-repeat center/100% url("../images/laptop.jpg");
+    image-rendering: auto;
+    color: white;
+    display: inline-block;
+    position: relative;
+}
+.paragraph_name_left
+{
+    position: absolute;
+    margin-left: 3%;
+    bottom: 12px;
+    font-size: 400%;
+}
+.paragraph_studies_left
+{
+    font-size: 55%;
+    font-family: 'Cutive Mono', monospace;
+}
+.link_mail
+{
+    color: white;
+}
+
+.div_summary_right
+{
+    float: right;
+    width: 23%;
+    background-color: rgb(34, 42, 53);
+    display: inline-block;
+    height: 682px;
+    text-align: center;
+    color: white;
+}
+.div_summary_right_mobile
+{
+    display: inline-block;
+    background-color: rgb(34, 42, 53);
+    width: 100%;
+    font-size: 200%;
+    text-align: center;
+    color: white;
+}
+.sub_div_summary_right
+{
+    width: 75%;
+    margin-left: 12.5%;
+}
+.avatar, .name_right, .studies_right, .contacts_right, .social_right, .download_cv
+{
+    margin-top: 27px;
+} 
+.avatar
+{
+    height: 140px;
+    width: 140px;
+    border-radius: 100px;
+}
+.avatar_mobile
+{
+    height: 220px;
+    width: 220px;
+    border-radius: 100px;
+}
+.name_right
+{
+    font-size: 170%;
+}
+.age_right
+{
+    margin-top: 12px;
+}
+.studies_right
+{
+    font-size: 100%;
+    padding: 12px;
+}
+.contacts_right
+{
+    font-size: 95%;
+}
+.socials_right
+{
+    text-align: center;
+    margin-top: 15px;
+    width: 40%;
+    margin-left: 30%;
+}
+.download_cv
+{
+    background-color: white;
+    padding: 20px;
+}
+
+
+/* Body */
+.div_body_grey
+{
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(235, 235, 230);
+}
+.div_body_white
+{
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.div_body_grey, .div_body_white
+{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.div_body_one_column
+{
+    width: 55%;
+    margin-left: 16%;
+}
+.div_body_one_column_mobile
+{
+    width: 55%;
+    margin-left: 11.8%;
+}
+.div_body_two_column_left
+{
+    display: inline-block;
+    width: 23%;
+    margin-left: 16%;
+    float: left;
+}
+.div_body_two_column_left_mobile
+{
+    display: inline-block;
+    width: 23%;
+    margin-left: 11.8%;
+}
+.div_body_two_column_right
+{
+    display: inline-block;
+    width: 23%;
+    margin-left: 20%;
+}
+.div_footer
+{
+    display: inline-block;
+    font-family: 'Cutive Mono', monospace;
+    background-color: rgb(34, 42, 53);
+    font-size: 120%;
+    width: 100%;
+    margin-bottom: -1%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+    height: 70px;
+    padding: auto;
+}
