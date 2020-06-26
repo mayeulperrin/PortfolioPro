@@ -67,7 +67,7 @@
             de plusieurs technologies. Avec un intérêt particuler pour la programmation des langages internet,
             j'ai déjà réalisé plusieurs sites web.<br>
             Par ailleurs, je suis passionné de photographie laquelle représente pour moi l'outil d'une expression
-            artistique mais aussi, au même titre que l'informatique, un domaine très vaste ou tout peut se réaliser. 
+            artistique mais aussi, au même titre que l'informatique, un domaine très vaste où tout peut se réaliser. 
             </p>
         </div>
     </div>
